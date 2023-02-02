@@ -16,11 +16,11 @@ html {
 
 #container {
     background-color: black;
-    border: 10px solid rgba(47,47,47,1);
+    border: 10px solid rgba(47, 47, 47, 1);
     border-radius: 4px;
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+    grid-template-rows: minmax(100px, auto) repeat(6, 80px);
     gap: 2px;
 }
 
@@ -48,13 +48,12 @@ button {
     color: black;
 }
 
-
 #zero {
     grid-column: span 2;
 }
 
 .operator {
-    background-color: #FF8F1F;    
+    background-color: #FF8F1F;
 }
 
 .operator:focus {
