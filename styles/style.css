@@ -107,3 +107,7 @@ button {
 .percent:active {
     background-color: rgb(123, 189, 255);
 }
+
+.new-button {
+    background-color: yellow;
+}
