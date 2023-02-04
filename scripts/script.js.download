@@ -176,6 +176,7 @@ function operate(x, y, op) {
         } else {
             return x / y;
         }
+//added the following funtions to the calculator
     } else if (op === 'pow')
         return x ** y;
     else if (op === 'root') {
