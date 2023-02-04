@@ -179,10 +179,13 @@ function operate(x, y, op) {
     } else if (op === 'pow')
         return x ** y;
     else if (op === 'root') {
-        return (Math.sqrt(x, y));
+        return (Math.pow(x, (1/y)));
     } else if (op === 'sqr-root') {
-        return (Math.sqrt(x, y));
+        return (Math.pow(x, 1 / 2));
+    } else if (op === 'sqr') {
+        return (Math.pow(x, 2));
     }
+
 
 }
 
